@@ -60,7 +60,7 @@ public class datasetOrder {
         this.nama.add(value);
     }
     
-    public ArrayList<String> nama(){
+    public ArrayList<String> getnama(){
         return this.nama;
     }
     

@@ -54,7 +54,7 @@ public class datasetMenu {
         this.nama.add(value);
     }
     
-    public ArrayList<String> nama(){
+    public ArrayList<String> getNama(){
         return this.nama;
     }
     

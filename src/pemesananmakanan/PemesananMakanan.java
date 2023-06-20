@@ -4,6 +4,8 @@
  */
 package pemesananmakanan;
 
+import forms.formUtama;
+
 /**
  *
  * @author ASUS
@@ -22,7 +24,9 @@ public class PemesananMakanan {
         System.out.println("Userid : " + obj.getUserid());
         System.out.println("Username : "+ obj.getUsername());
         System.out.println ("Password : "+ obj.getPassword());
-        
+       
+       
+        new formUtama().setVisible(true);
     }
     
 }
